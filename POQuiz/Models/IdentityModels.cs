@@ -29,5 +29,7 @@ namespace POQuiz.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<POQuiz.Models.PrimeMinister> PrimeMinisters { get; set; }
     }
 }
